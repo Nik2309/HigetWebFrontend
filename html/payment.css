@@ -1,0 +1,293 @@
+body{
+height: 100%;
+position:fixed;
+background-color:fafafe;
+margin:0;
+margin-top: 0%;
+font-family: Poppins;
+}
+
+#container{
+position: absolute;
+width: 496px;
+height: 484px;
+left: 123px;
+top: 100px;
+background: #FFFFFF;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+}
+
+.heading{
+position: relative;
+width: 194px;
+height: 45px;
+left: 30px;
+top: 35px;
+font-family: Poppins;
+font-style:normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+color: #000000;
+}
+
+#card{
+position: absolute;
+width: 448px;
+height: 60px;
+left: 24px;
+top: 115px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+}
+
+#card:focus { 
+outline: none !important;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+}
+
+#card::-webkit-input-placeholder {
+left: 20px;
+top: 15px;
+padding: 15px 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: rgba(0, 0, 0, 0.7);
+}
+
+input[type="card"]::placeholder {  
+padding-top: 15px;
+}
+
+#holder{
+position: absolute;
+width: 448px;
+height: 60px;
+left: 24px;
+top: 300px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+}
+
+#holder:focus { 
+outline: none !important;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+}
+
+#holder::-webkit-input-placeholder,#cvv {
+left: 20px;
+top: 15px;
+padding: 15px 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: rgba(0, 0, 0, 0.7);
+}
+
+input[type="text"]::placeholder {  
+padding-top: 15px;
+} 
+
+
+.button{
+position: absolute;
+width: 266px;
+height: 61px;
+left: 200px;
+border: none;
+text-align: center;
+top: 320px;
+background: rgba(76, 195, 202, 0.7);
+border-radius: 15px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+color: #FFFFFF;
+}
+
+.button:focus { 
+outline: none;
+}
+
+#noacc{
+position: absolute;
+width: 320px;
+height: 23px;
+left: 35px;
+top: 441px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+}
+
+#signup{
+text-decoration: none;
+}
+
+#skip{
+position: absolute;
+width: 100px;
+height: 38px;
+right: 40px;
+top: 484px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 37px;
+color: #000000;
+text-decoration: none;
+}
+
+#payimg{
+position: absolute;
+left: 760px;
+top: 0px;
+}
+
+#box{
+position:absolute;
+top: 21px;
+left: 339px;
+text-align: center;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+color: #FFFFFF;
+height: 61px;
+width: 134px;
+background: rgba(76, 195, 202, 0.7);
+border-radius: 15px;
+}
+#rs{
+    position: relative;
+    top: 10px;
+}
+
+#expiry{
+    position: absolute;
+    width: 216px;
+    height: 60px;
+    left: 25px;
+    top: 205px;
+    background: #FFFFFF;
+    opacity:.5;
+    box-shadow: 1px 5px 10px 5px #E5E5E5;
+    border-radius: 15px;
+    border:#FFFFFF;
+    border:0; 
+    }
+    
+    #expiry:focus { 
+    outline: none !important;
+    box-shadow: 1px 5px 10px 5px #E5E5E5;
+    border-radius: 15px;
+    }
+    
+    #expiry::-webkit-input-placeholder {
+    left: 20px;
+    top: 15px;
+    padding: 15px 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    }
+    input[type="date"]::placeholder {
+        content: none;
+    }
+
+    #cvv{
+        position: absolute;
+        width: 216px;
+        height: 60px;
+        left: 256px;
+        top: 205px;
+        background: #FFFFFF;
+        opacity:.5;
+        box-shadow: 1px 5px 10px 5px #E5E5E5;
+        border-radius: 15px;
+        border:#FFFFFF;
+        border:0; 
+        }
+        
+        #cvv:focus { 
+        outline: none !important;
+        box-shadow: 1px 5px 10px 5px #E5E5E5;
+        border-radius: 15px;
+        }
+        
+        #cvv::-webkit-input-placeholder {
+        left: 20px;
+        top: 15px;
+        padding: 15px 10px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 0.7);
+        }
+        
+        input[type="number"]::placeholder {  
+        padding-top: 15px;
+        } 
+#pay{
+    position: relative;
+    top: 8px;
+color: #FFFFFF;
+}
+
+#button1{
+    position: absolute;
+    width: 146px;
+    height: 61px;
+    left: 31px;
+    border: 2px solid #82D5DA;
+box-sizing: border-box;
+border-radius: 15px;
+    text-align: center;
+    top: 323px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 0.3);
+    }
+    
+    #button1:focus { 
+    outline: none;
+    }
+#cancel{
+    position: relative;
+    top: 8px;
+}
+

@@ -1,0 +1,39 @@
+<html>
+    <head><title>Hi-get</title>
+        <meta name="author" content="Nikhil Chapadia">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="prdetails.css">
+    </head>
+    <body>
+    <div id="head">
+        Patient's Relative Details
+    </div>
+    <form action="prdetails.php" method="POST">
+        <div><input id="firstname" name="first" class="textarea"type="text" placeholder="Firstname" required maxlength="20"></div>
+        <div><input id="middlename" name="middle"class="textarea"type="text" placeholder="Middlename" required maxlength="20"></div>
+        <div><input id="lastname" name="last"class="textarea"type="text" placeholder="Lastname" required maxlength="20"></div>
+        <div><input id="age" name="ag"type="number" placeholder="Age" required maxlength="3"></div>
+        <div><input id="gender" name="gndr"type="text" placeholder="Gender" required></div>
+        <div><input id="relation" name="relate" type="text" placeholder="Relation" required></div>
+        <div><input id="no" name="numb"type="number" placeholder="Mobile No." required maxlength="10"></div>
+        <div id="address">Address:</div>
+        <div><input id="buildno" name="bldno"class="textarea"type="number" placeholder="Building No." required maxlength="20"></div>
+        <div><input id="flatno" name="fltno"class="textarea"type="number" placeholder="Flat No." required maxlength="20"></div>
+        <div><input id="appt" name="apt"class="textarea"type="text" placeholder="Appartment name" required maxlength="20"></div>
+        <div><input id="lndmrk" name="land"class="textarea"type="text" placeholder="Landmark (optional)" required maxlength="20"></div>
+        <div><input id="strt" name="street"class="textarea"type="text" placeholder="Street name" required maxlength="20"></div>
+        <div><input id="city" name="ct"class="textarea"type="text" placeholder="City" required maxlength="20"></div>
+        <div><input id="taluka" name="tal"class="textarea"type="text" placeholder="Taluka" required maxlength="20"></div>
+        <div><input id="district" name="dist"class="textarea"type="text" placeholder="District" required maxlength="20"></div>
+        <div><input id="state" name="stat"class="textarea"type="text" placeholder="State" required maxlength="20"></div>
+        <div><input id="zip" name="zeep"class="textarea"type="number" placeholder="ZIP/Postal code" required maxlength="6"></div>
+        <div>
+        
+        <button class="button"type="submit" >Submit</button>
+    </form></div>
+    
+
+<img id="pdetailsimg"src="images\prdetails.png"width="762px" height="800px">
+
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+    <head><title>Hi-get</title>
+        <meta name="author" content="Nikhil Chapadia">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="payment.css">
+    </head>
+    <body>
+    <div id="container">
+    <div id="box"><span id="rs">₹1150</span></div>
+    <div class="heading">Pay Amount</div>
+    <div><input id="card"type="Number" placeholder="Card Number" required></div>
+    <div><input id="expiry"type="Number" placeholder="Expiry" required></div>
+    <div><input id="cvv"type="Number" placeholder="CVV/CVC" required></div>
+
+    <div><input id="holder"type="text" placeholder="Card Holder Name" required></div>
+    <div>
+    <span id="pay">
+        <form action="homepage.html" method="get">
+            <button class="button"type="submit" >Make Payment</button>
+        </form>
+    </span>
+    </div>
+    <div>
+        <span id="cancel">
+        <form action="homepage.html" method="get">
+            <button id="button1"type="submit" >Cancel</button>
+        </form>
+    </span></div>
+    
+</div>
+<img id="payimg"src="images\payment.png"width="762px" height="800px">
+
+    </body>
+</html>

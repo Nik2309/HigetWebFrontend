@@ -1,0 +1,279 @@
+body{
+height: 100%;
+position:fixed;
+background-color:fafafe;
+margin:0;
+margin-top: 0%;
+font-family: Poppins;
+}
+
+#head{
+position: absolute;
+width: 396px;
+height: 75px;
+left: 30px;
+top: 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 75px;
+color: #000000;
+}
+
+#pdetailsimg{
+position: absolute;
+left: 788px;
+top: 0px;
+position: fixed;
+}
+.textarea{
+position: absolute;
+width: 230px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+}
+
+.textarea:focus,#age,#gender,#bldgrp,#no,#buildno,#flatno,#appt
+,#lndmrk,#strt,#city,#taluka,#district,#state,#zip { 
+outline: none !important;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+}
+
+.textarea::-webkit-input-placeholder,#age,#firstname,
+#middlename,#lastname,#gender,#bldgrp,#no,#buildno,
+#flatno,#appt,#lndmrk,#strt,#city,#taluka,#district,#state,#zip{
+left: 20px;
+top: 15px;
+padding: 15px 15px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: rgba(0, 0, 0, 0.7);
+}
+
+input[type="textarea"]::placeholder {  
+padding-top: 15px;
+}
+
+#firstname{
+top: 100px;
+left: 30px;
+}
+
+#middlename{
+top: 100px;
+left: 281px;
+}
+#lastname{
+top: 100px;
+left: 533px;
+}
+
+#age{
+position: absolute;
+width: 100px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+top: 185px;
+left: 30px;
+}
+
+#gender{
+position: absolute;
+width: 146px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+top: 185px;
+left: 151px;
+}
+
+#bldgrp{
+position: absolute;
+width: 154px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+top: 185px;
+left: 318px;
+}
+#no{
+position: absolute;
+width: 268px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+top: 185px;
+left: 493px;
+}
+
+#address{
+position:absolute;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+left: 30px;
+top: 265px;
+}
+
+#buildno{
+position: absolute;
+width: 155px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+top: 315px;
+left: 30px;
+}
+
+#flatno{
+position: absolute;
+width: 155px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+top: 315px;
+left: 206px;
+}
+
+#appt{
+position: absolute;
+width: 381px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+top: 315px;
+left: 382px;
+}
+
+#lndmrk{
+position: absolute;
+width: 324px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+top: 400px;
+left: 30px;
+}
+
+#strt{
+position: absolute;
+width: 388px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+top: 400px;
+left: 375px;
+}
+
+#city{
+top: 485px;
+left: 30px;
+}
+
+#taluka{
+top: 485px;
+left: 281px;
+}
+#district{
+top: 485px;
+left: 533px;
+}
+
+#state{
+position: absolute;
+width: 230px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+top: 575px;
+left: 30px;
+}
+
+#zip{
+position: absolute;
+width: 230px;
+height: 60px;
+background: #FFFFFF;
+opacity:.5;
+box-shadow: 1px 5px 10px 5px #E5E5E5;
+border-radius: 15px;
+border:#FFFFFF;
+border:0; 
+top: 575px;
+left: 281px;
+}
+
+.button{
+position: absolute;
+width: 230px;
+height: 61px;
+left: 279px;
+border: none;
+top: 660px;
+background: rgba(76, 195, 202, 0.7);
+border-radius: 15px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+color: #FFFFFF;
+}
+
+.button:focus { 
+outline: none;
+}

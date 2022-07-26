@@ -1,0 +1,217 @@
+body{
+    height: 100%;
+    position:relative;
+    background-color:fafafe;
+    margin:0;
+    margin-top: 0%;
+    font-family: Poppins;
+    position: fixed;
+    }
+    
+    #container{
+    position: absolute;
+    width: 496px;
+    height: 570px;
+    left: 120px;
+    top: 60px;
+    background: #FFFFFF;
+    box-shadow: 1px 5px 10px 5px #E5E5E5;
+    border-radius: 15px;
+    }
+    
+    .heading{
+    position: relative;
+    width: 194px;
+    height: 45px;
+    left: 24px;
+    top: 35px;
+    font-family: Poppins;
+    font-style:normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+    }
+    
+    #textarea{
+    position: absolute;
+    width: 448px;
+    height: 60px;
+    left: 24px;
+    top: 115px;
+    background: #FFFFFF;
+    opacity:.5;
+    box-shadow: 1px 5px 10px 5px #E5E5E5;
+    border-radius: 15px;
+    border:#FFFFFF;
+    border:0; 
+    }
+    
+    #textarea:focus { 
+    outline: none !important;
+    box-shadow: 1px 5px 10px 5px #E5E5E5;
+    border-radius: 15px;
+    }
+    
+    #textarea::-webkit-input-placeholder {
+    left: 20px;
+    top: 15px;
+    padding: 15px 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    }
+    
+    input[type="textarea"]::placeholder {  
+    padding-top: 15px;
+    }
+    
+    #password{
+    position: absolute;
+    width: 448px;
+    height: 60px;
+    left: 24px;
+    top: 210px;
+    background: #FFFFFF;
+    opacity:.5;
+    box-shadow: 1px 5px 10px 5px #E5E5E5;
+    border-radius: 15px;
+    border:#FFFFFF;
+    border:0; 
+    }
+    
+    #password:focus { 
+    outline: none !important;
+    box-shadow: 1px 5px 10px 5px #E5E5E5;
+    border-radius: 15px;
+    }
+    
+    #password::-webkit-input-placeholder {
+    left: 20px;
+    top: 15px;
+    padding: 15px 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    }
+    
+    input[type="password"]::placeholder {  
+    padding-top: 15px;
+    } 
+    
+    #checkbox{
+    position: absolute;
+    left: 39px;
+    top: 305px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    }
+    
+
+    .button{
+    position: absolute;
+    width: 448px;
+    height: 61px;
+    left: 24px;
+    border: none;
+    top: 315px;
+    background: rgba(76, 195, 202, 0.7);
+    border-radius: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    }
+    
+    .button:focus { 
+    outline: none;
+    }
+    
+    #noacc{
+    position: absolute;
+    width: 320px;
+    height: 23px;
+    left: 35px;
+    top: 441px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    }
+    
+    #signup{
+    text-decoration: none;
+    }
+    
+    #skip{
+    position: absolute;
+    width: 100px;
+    height: 38px;
+    right: 30px;
+    top: 510px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    color: #000000;
+    text-decoration: none;
+    }
+    
+    #signupimg{
+    position: absolute;
+    left: 760px;
+    top: 0px;
+    }
+
+#or{
+    position: absolute;
+    top: 400px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    left: 220px;
+}
+    
+#with{
+    position: absolute;
+    top: 435px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 20px;
+    left: 180px;
+}
+
+#google{
+    position: absolute;
+    top: 480px;
+    left: 185px;
+}
+
+#fb{
+    position: absolute;
+    top:480px;
+    left: 225px;
+}
+
+#tweet{
+    position: absolute;
+    top:480px;
+    left: 265px;
+}
